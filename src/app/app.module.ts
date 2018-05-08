@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { MessageListComponent } from './components/message-list/message-list.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    MessageListComponent
   ],
   imports: [
     BrowserModule
