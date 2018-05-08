@@ -2,7 +2,7 @@ import { Component, OnInit, Input } from '@angular/core';
 import { Message } from '../../models/message';
 
 @Component({
-  selector: 'app-message-list',
+  selector: 'message-list',
   templateUrl: './message-list.component.html',
   styleUrls: ['./message-list.component.css']
 })

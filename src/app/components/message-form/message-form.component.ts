@@ -3,7 +3,7 @@ import { Message } from '../../models/message';
 import { DialogflowService } from '../../services/dialogflow.service';
 
 @Component({
-  selector: 'app-message-form',
+  selector: 'message-form',
   templateUrl: './message-form.component.html',
   styleUrls: ['./message-form.component.css']
 })

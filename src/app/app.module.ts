@@ -1,3 +1,4 @@
+import { DialogflowService } from './services/dialogflow.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
@@ -19,7 +20,7 @@ import { MessageFormComponent } from './components/message-form/message-form.com
     FormsModule,
     HttpModule
   ],
-  providers: [],
+  providers: [DialogflowService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -1,3 +1,4 @@
+import { Message } from './models/message';
 import { Component } from '@angular/core';
 
 @Component({
@@ -7,6 +8,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
-  messages = [];
-  message = '';
+  public message: Message;
+  public messages: Message[];
+
+
+  constructor() {
+    this.message = new Message('', 'assets/images/user.png');
+    this.messages = [
+      new Message('Welcome to chatbot universe', 'assets/images/bot.png', new Date())
+    ];
+  }
 }

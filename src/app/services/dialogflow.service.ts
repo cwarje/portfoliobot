@@ -15,11 +15,11 @@ export class DialogflowService {
   public getResponse(query: string) {
     let data = {
       query: query,
-      land: 'en',
+      lang: 'en',
       sessionId: '12345'
     }
     return this.http
-      .post(`$this.baseURL}`, data, {headers: this.getHeaders()})
+      .post(`${this.baseURL}`, data, {headers: this.getHeaders()})
       .map(res => {
         return res.json()
       })
