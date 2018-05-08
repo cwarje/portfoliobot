@@ -1,5 +1,5 @@
 import { Component, OnInit, Input } from '@angular/core';
-import { Message } from './../../models/message';
+import { Message } from '../../models/message';
 
 @Component({
   selector: 'app-message-list',
@@ -8,8 +8,7 @@ import { Message } from './../../models/message';
 })
 export class MessageListComponent implements OnInit {
 
-  @Input('messages')
-  private messages: Message[];
+  @Input('messages') messages: Message[];
 
   constructor() { }
 

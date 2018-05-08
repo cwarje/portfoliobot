@@ -8,11 +8,11 @@ import { Message } from '../../models/message';
 })
 export class MessageFormComponent implements OnInit {
 
-  @Input('message')
-  private message : Message;
+  @Input('message') message : Message;
 
-  @Input()('messages')
-  private messages : Message[];
+  @Input('messages') messages : Message[];
+
+  constructor() { }
 
   ngOnInit() {
   }
