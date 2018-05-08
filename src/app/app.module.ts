@@ -5,13 +5,15 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { MessageListComponent } from './components/message-list/message-list.component';
 import { MessageItemComponent } from './components/message-item/message-item.component';
+import { MessageFormComponent } from './components/message-form/message-form.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     MessageListComponent,
-    MessageItemComponent
+    MessageItemComponent,
+    MessageFormComponent
   ],
   imports: [
     BrowserModule
