@@ -1,4 +1,4 @@
-import { DialogflowService } from './services/dialogflow.service';
+import { DialogflowService } from './services/';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';

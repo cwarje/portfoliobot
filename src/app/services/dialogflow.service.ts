@@ -30,5 +30,4 @@ export class DialogflowService {
     headers.append('Authorization', `Bearer ${this.token}`);
     return headers;
   }
-
 }
